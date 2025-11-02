@@ -1,7 +1,7 @@
 # Assignment 4 – Graph Algorithms (SCC, Topological Sort, DAG Paths)
 
 
-**Student:** Жангазы Бакытжан  
+**Student:** Jangazy Bakytzhan
 **Course:** Design and Analysis of Algorithms (Assignment 4)
 
 
@@ -15,7 +15,7 @@ This project implements and analyzes **three core graph algorithms** with full *
 
 All results are automatically processed and benchmarked across multiple datasets stored in the `/data/` directory.
 
----
+
 
 ## 🧩 1. Strongly Connected Components (TarjanSCC)
 
