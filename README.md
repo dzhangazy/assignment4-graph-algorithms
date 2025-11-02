@@ -184,6 +184,7 @@ Dataset	SCCs	Topo Edges	Shortest (ns)	Longest (ns)
 small_1.json	3	1	9.1k	8.0k
 medium_2.json	7	7	5.3k	5.1k
 large_2.json	18	17	10.4k	7.9k
+
 🧩 10. Conclusion
 
 ✅ The project fully meets the requirements of Assignment 4:
