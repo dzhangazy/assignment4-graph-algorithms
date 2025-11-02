@@ -157,6 +157,7 @@ DAG Shortest Path metrics: Time(ns): 37100
 ✅ Metrics successfully written to metrics_report.csv
 
 📁 8. Project Structure
+```
 assignment4-graph-algorithms/
 ├── src/
 │   ├── main/java/
@@ -178,6 +179,7 @@ assignment4-graph-algorithms/
 ├── metrics_report.csv
 ├── pom.xml
 └── README.md
+```
 
 📊 9. Results Summary
 Dataset	SCCs	Topo Edges	Shortest (ns)	Longest (ns)
