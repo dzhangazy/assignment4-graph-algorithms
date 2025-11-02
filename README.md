@@ -168,7 +168,8 @@ assignment4-graph-algorithms/
 │   │   ├── metrics/
 │   │   │   ├── Metrics.java
 │   │   │   └── BasicMetrics.java
-│   │   └── Main.java
+│   │   ├── utils/
+│   │   │   └── GraphGenerator.java
 │   └── test/java/graph/GraphTests.java
 ├── data/
 │   ├── small_1.json
