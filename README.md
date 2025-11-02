@@ -1,12 +1,9 @@
 # Assignment 4 – Graph Algorithms (SCC, Topological Sort, DAG Paths)
 
-## 👨‍💻 Author
 
-**Name:** Жангазы Бакытжан  
-**Variant:** 4  
-**Course:** Object-Oriented Programming / Algorithms (Assignment 4)
+**Student:** Жангазы Бакытжан  
+**Course:** Design and Analysis of Algorithms (Assignment 4)
 
----
 
 ## 📘 Overview
 
@@ -37,7 +34,6 @@ All results are automatically processed and benchmarked across multiple datasets
 - Stack pops
 - Execution time (in nanoseconds)
 
----
 
 ## 🔁 2. Topological Sort (KahnTopoSort)
 
@@ -52,7 +48,6 @@ All results are automatically processed and benchmarked across multiple datasets
 - Initial pushes (zero in-degree nodes)
 - Execution time (in nanoseconds)
 
----
 
 ## 🧮 3. Shortest and Longest Paths in a DAG
 
@@ -75,7 +70,6 @@ The algorithm uses **edge weights** (not node weights) as **task durations**.
 - Relaxation attempts and successes
 - Execution time (in nanoseconds)
 
----
 
 ## ⏱ 4. Instrumentation & Metrics
 
@@ -92,7 +86,7 @@ KahnTopo,141600,Edges=17,Pushes=12,Pops=17
 DAGShortest,37100,Attempts=4,Success=3
 DAGLongest,19400,Attempts=4,Success=4
 
----
+
 
 ## 🧾 5. Dataset Generation
 
@@ -116,6 +110,8 @@ Each JSON file follows this structure:
     {"u": 1, "v": 2, "w": 3}
   ]
 }
+```
+
 🧪 6. Unit Testing (JUnit)
 
 Located in src/test/java/graph/GraphTests.java
@@ -145,6 +141,7 @@ BUILD SUCCESS
 Build and execute using Maven:
 
 mvn compile
+
 mvn exec:java -D"exec.mainClass=Main"
 
 
@@ -202,4 +199,4 @@ Produced automated CSV reports
 Includes JUnit test coverage
 
 Result: ✅ 100% complete and ready for submission.
-```
+
